@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body{
+  background-color: #151A2D;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	height: 100vh;
+	margin: -20px 0 50px;
+
+}
+
+.seta{
+  text-align: start;
+  cursor: pointer;
+}
+input[type="text"], input[type="password"], input[type="email"], input[type="checkbox"]{
+
+  border: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.705);
+  background-color: #f6f5f700;
+  color: white;
+  padding: 4.2px;
+  text-transform: uppercase;
+
+  margin-top: 15px;
+
+}
+
+input[type="text"]::placeholder , input[type="email"]::placeholder,   input[type="password"]::placeholder{
+  color: rgba(255, 255, 255, 0.274);
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus{
+  outline: none;
+  color: white;
+  font-weight: bold;
+}
+
+
+
+.app{
+  text-align: center;
+  margin: auto;
+}
+
+button{
+  background-color: #ff464e;
+  border: 0;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 15pt;
+
+}
+
+
+
+.log-page-main{
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  border-radius: 10px;
+  padding: 15px;
+  -webkit-box-shadow: 10px 10px 26px 5px rgba(0,0,0,0.52);
+-moz-box-shadow: 10px 10px 26px 5px rgba(0,0,0,0.52);
+box-shadow: 10px 10px 26px 5px rgba(0,0,0,0.52);
+
+
+}
+
+
+hr{
+  width: 75%;
+  opacity: 50%;
+}
+.icons{
+  text-align: center;
+  
+}
+
+.icon-i {
+  font-size: 20pt;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#span-i-have, #span-i-dont-have{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.h1-icon{
+  font-size: 50pt;
+  text-align: center;
+}
+
+
+@media (max-width: 768px) {
+
+  body{
+    font-size: 14pt;
+  }
+  .log-page-main {
+    width: 90%;
+    /* estilos específicos para telas de celular */
+  }
+
+
+  input[type="text"], input[type="password"], input[type="email"], input[type="checkbox"]{
+
+    border: 0;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.705);
+    background-color: #f6f5f700;
+    color: white;
+    padding: 1.2px;
+
+    text-transform: uppercase;
+  
+    margin-top: 15px;
+  
+  }
+
+
+  h1{
+    font-size: 14pt;
+  }
+
+  .icon-i {
+    font-size: 10pt;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+
+
+  span{
+    font-size: 10pt;
+  }
+}
